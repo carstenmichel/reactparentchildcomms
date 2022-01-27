@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import "./childs.css"
-import { Button, Dropdown, OnChangeData } from 'carbon-components-react';
+import { Dropdown, OnChangeData } from 'carbon-components-react';
 
 
 interface IsecondChildProps {

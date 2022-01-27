@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
+        <p>learn react</p>       
         <Parent />
       </header>
     </div>

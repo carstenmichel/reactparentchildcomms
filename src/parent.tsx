@@ -1,4 +1,3 @@
-import { Column, Grid, Row } from "carbon-components-react"
 import { useState } from "react"
 import { FirstChild } from "./firstChild"
 import { SecondChild } from "./second"
@@ -13,17 +12,6 @@ export const Parent: React.FC = () => {
     const updateName = (name: string) => {
         setParentName(name)
     }
-
-    const items = [
-        {
-          id: 'option-1',
-          label: 'Name 1',
-        },
-        {
-          id: 'option-2',
-          label: 'Name 2',
-        }
-    ];
 
     return (
         <div>
